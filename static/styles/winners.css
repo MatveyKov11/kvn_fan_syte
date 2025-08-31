@@ -42,6 +42,7 @@
 
 .chap_button:hover {
 	cursor: pointer;
+	filter: drop-shadow(0 0 13px #000000);
 }
 
 .head1 {

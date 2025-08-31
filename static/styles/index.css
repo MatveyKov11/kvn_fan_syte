@@ -42,6 +42,7 @@
 
 .chap_button:hover {
 	cursor: pointer;
+	filter: drop-shadow(0 0 13px #000000);
 }
 
 .head1 {
@@ -120,6 +121,10 @@
 .logo_img {
 	border-radius: 50%;
 	border: 3px solid #000000;
+}
+
+.logo_img:hover {
+	filter: drop-shadow(0 0 10px #000000);
 }
 
 .ref_text {
