@@ -72,16 +72,11 @@
 	margin-left: 5%;
 }
 
-.block {
-	width: 100%;
-	height: 970px;
-}
-
 .img_container_l {
-    position: relative;
-    margin-left: 5%;
-    width: 25%;
-    height: auto;
+	position: relative;
+	margin-left: 5%;
+	width: 25%;
+	height: auto;
 }
 
 .img_container_r {
@@ -106,12 +101,20 @@
 }
 
 .description_r {
-	position: absolute;
 	margin-left: 30%;
 	width: 70%;
 }
 
 .description_l {
-	position: absolute;
 	width: 70%;
+}
+
+.blocks {
+	display: flex;
+	flex-direction: column;
+}
+
+.block {
+	width: 100%;
+	position: relative;
 }
