@@ -74,26 +74,26 @@
 
 .img_container_l {
     position: relative;
-margin-left: 5%;
+	margin-left: 5%;
     width: 25%;
     height: auto;
 }
 
 .img_container_r {
-position: relative;
+	position: relative;
     margin-left: 70%;
     width: 25%;
     height: auto;
 }
 
 .back_img {
-position: absolute;
+	position: absolute;
     width: 100%;
     border: 3px solid #000000;
 }
 
 .front_img {
-position: absolute;
+	position: absolute;
     width: 100%;
     border: 3px solid #000000;
 }
