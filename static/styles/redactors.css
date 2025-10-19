@@ -33,7 +33,7 @@
 	padding: 24px 0px;
 	font-family: "Absolute Pro", sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 28px;
 	background-color: rgb(255, 255, 255);
 	color: #000000;
 	border-left: 3px solid #000000;
@@ -45,13 +45,6 @@
 	filter: drop-shadow(0 0 13px #000000);
 }
 
-.img_container {
-    position: relative;
-	margin-left: 5%;
-    width: 25%;
-    height: auto;
-}
-
 .back_img {
 	position: absolute;
     width: 100%;
@@ -60,7 +53,7 @@
 }
 
 .front_img {
-	
+	position: relative;
     width: 100%;
     border: 3px solid #000000;
 }
@@ -69,32 +62,87 @@
     filter: drop-shadow(0 0 40px #ffffff);
 }
 
-.description {
-	width: 65%;
-}
-
-.blocks {
+.cards {
 	display: flex;
 	flex-direction: column;
 }
 
-.block {
-	width: 100%;
-	position: relative;
-    height: auto;
+.card{
+	width: 70%;
+	height: auto;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
-.block_info {
-	display: flex;
+.image_container{
+	position: relative;
 	width: 100%;
-	justify-content: flex-start;
+	height: auto;
+}
+
+.description{
+	width: 100%;
+}
+
+.show{
+	position: absolute;
+	margin-left: 93%; 
+	width: 7%;
+}
+
+.close{
+	position: absolute;
+	float: right;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 92%;
+	margin-right: 2%;
+	width: 5%;
+}
+
+.window {
+    position: absolute;
+    width: 70%;
+    height: 90%;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #ffffff;
+    flex-direction: column;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    display: none;
+	z-index: 2;
+}
+
+.icon{
+	position: absolute;
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.icon:hover{
+	opacity: 1;
+	cursor: pointer;
+	filter: drop-shadow(0 0 40px #ffffff);
+}
+
+.bio{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;	
 }
 
 .head1 {
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	font-size: 36px;
+	font-size: 40px;
 	font-family: "Absolute Pro", sans-serif;
 	margin-left: 5%;
 }
@@ -103,16 +151,24 @@
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	font-size: 24px;
+	font-size: 32px;
 	font-family: "Absolute Pro", sans-serif;
 	margin-left: 5%;
+}
+
+.wind_head {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	font-size: 32px;
+	font-family: "Absolute Pro", sans-serif;
 }
 
 .main_text {
 	display: flex;
 	flex-direction: column;
 	width: 94%;
-	font-size: 20px;
+	font-size: 28px;
 	font-family: "Absolute Pro", sans-serif;
 	margin-left: 6%;
 }
