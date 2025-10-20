@@ -196,6 +196,25 @@
 	text-decoration: underline;
 }
 
+.icon{
+	position: absolute;
+	width: 100%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.icon:hover{
+	opacity: 1;
+	cursor: pointer;
+	filter: drop-shadow(0 0 40px #ffffff);
+}
+
+.navi{
+	position: absolute;
+	margin-left: 90%;
+	width: 5%;
+}
+
 .footer{
 	width: 100%;
 	border-top: 3px solid #000000;
