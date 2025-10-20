@@ -250,7 +250,7 @@
 
 	.chap_button:hover {
 		cursor: pointer;
-		filter: drop-shadow(0 0 13px #000000);
+		filter: drop-shadow(0 0 6px #000000);
 	}
 
 	.back_img {
