@@ -301,8 +301,8 @@
 
 	.show{
 		position: absolute;
-		margin-left: 93%; 
-		width: 7%;
+		margin-left: 90%; 
+		width: 10%;
 	}
 
 	.close{
@@ -310,9 +310,9 @@
 		float: right;
 		margin-top: 2%;
 		margin-bottom: 2%;
-		margin-left: 92%;
+		margin-left: 90%;
 		margin-right: 2%;
-		width: 5%;
+		width: 7%;
 	}
 
 	.window {
@@ -392,8 +392,8 @@
 
 	.navi{
 		position: absolute;
-		margin-left: 90%;
-		width: 5%;
+		margin-left: 85%;
+		width: 10%;
 	}
 
 	.footer{
