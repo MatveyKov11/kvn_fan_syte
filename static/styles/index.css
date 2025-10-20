@@ -33,7 +33,7 @@
 	padding: 24px 0px;
 	font-family: "Absolute Pro", sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 28px;
 	background-color: rgb(255, 255, 255);
 	color: #000000;
 	border-left: 3px solid #000000;
@@ -45,40 +45,49 @@
 	filter: drop-shadow(0 0 13px #000000);
 }
 
+.main{
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.left{
+	width: 70%;
+}
+
+.left2{
+	position: relative;
+	float: left;
+	width: 70%;
+}
+
+.right{
+	position: relative;
+	float: right;
+	width: 30%;
+}
+
 .main_img_container {
 	margin-left: 20%;
 	width: 60%;
 	height: auto;
-}
-
-.main_text {
-	display: flex;
-	flex-direction: column;
-	width: 90%;
-	font-size: 20px;
-	font-family: "Absolute Pro", sans-serif;
-	margin-left: 5%;
+	margin-top: 28px;
+	margin-bottom: 28px;
 }
 
 .main_block {
-	position: absolute;
 	height: auto;
-	width: 70%;
+	width: 100%;
 }
 
 .news {
-	position: absolute;
-	width: 30%;
+	width: 100%;
 	height: auto;
-	margin-left: 70%;
 }
 
 .jokes {
-	position: absolute;
-	margin-top: 35%;
-	width: 30%;
+	width: 100%;
 	height: auto;
-	margin-left: 70%;
 }
 
 .refs {
@@ -90,12 +99,16 @@
 
 .ref_block {
 	width: 100%;
+	margin-top: 16px;
+	margin-bottom: 16px;
 	height: 128px;
 }
 
 .logo {
 	position: absolute;
 	margin-left: 5%;
+	margin-top: 6px;
+	margin-bottom: 6px;
 	width: 96px;
 	height: 96px;
 }
@@ -115,6 +128,9 @@
 	width: 90%;
 	font-size: 36px;
 	font-family: "Absolute Pro", sans-serif;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	margin-left: 5%;
 }
 
@@ -122,25 +138,52 @@
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	font-size: 24px;
+	font-size: 32px;
 	font-family: "Absolute Pro", sans-serif;
+	margin-top: 32px;
+	margin-bottom: 32px;
 	margin-left: 5%;
 }
 
-.ref_text {
-	position: absolute;
-	margin-top: 25px;
-	margin-left: 12%;
-	width: 70%;
+.head2_c {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	font-size: 32px;
+	font-family: "Absolute Pro", sans-serif;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	margin-left: 5%;
+}
+
+
+.main_text {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	font-size: 28px;
+	font-family: "Absolute Pro", sans-serif;
+	margin-left: 5%;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .remark {
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	font-size: 20px;
+	font-size: 24px;
 	font-family: "Absolute Pro", sans-serif;
+	margin-top: 6px;
+	margin-bottom: 6px;
 	margin-left: 5%;
 	color:#8f8f8f;
 }
 
+.ref_text {
+	position: absolute;
+	margin-bottom: 10px;
+	margin-left: 160px;
+	width: 70%;
+}
