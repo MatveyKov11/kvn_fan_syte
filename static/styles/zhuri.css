@@ -238,14 +238,14 @@
 
 	.chap_button {
 		width: 20%;
-		padding: 16px 0px;
+		padding: 14px 0px;
 		font-family: "Absolute Pro", sans-serif;
 		font-weight: bold;
 		font-size: 12px;
 		background-color: rgb(255, 255, 255);
 		color: #000000;
-		border-left: 2px solid #000000;
-		border-right: 2px solid #000000;
+		border-left: 1px solid #000000;
+		border-right: 1px solid #000000;
 	}
 
 	.chap_button:hover {
