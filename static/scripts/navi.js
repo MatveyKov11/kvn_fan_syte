@@ -22,7 +22,7 @@ if (window.innerWidth > 900){
     });
 }else{
     document.addEventListener('scroll', function(event){
-        up.style.top = scrollY + window.innerHeight - 36 + 'px';
-        down.style.top = scrollY + window.innerHeight - 16 + 'px';
+        up.style.top = scrollY + window.innerHeight - 72 + 'px';
+        down.style.top = scrollY + window.innerHeight - 32 + 'px';
     });
 }
