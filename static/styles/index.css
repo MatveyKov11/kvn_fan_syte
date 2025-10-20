@@ -291,6 +291,7 @@
 
 	.main{
 		display: flex;
+		justify-content: row;
 		flex-direction: row-reverse;
 		width: 100%;
 	}
