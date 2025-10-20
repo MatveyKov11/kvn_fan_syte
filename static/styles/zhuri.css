@@ -250,20 +250,20 @@
 
 	.chap_button:hover {
 		cursor: pointer;
-		filter: drop-shadow(0 0 6px #000000);
+		filter: drop-shadow(0 0 13px #000000);
 	}
 
 	.back_img {
 		position: absolute;
 		width: 100%;
-		border: 3px solid #000000;
+		border: 1px solid #000000;
 		z-index: -1;
 	}
 
 	.front_img {
 		position: relative;
 		width: 100%;
-		border: 3px solid #000000;
+		border: 1px solid #000000;
 	}
 
 	.front_img:hover {
@@ -283,16 +283,16 @@
 		flex-direction: column;
 		margin-left: 15%;
 		margin-right: 15%;
-		margin-top: 16px;
-		margin-bottom: 16px;
+		margin-top: 8px;
+		margin-bottom: 8px;
 	}
 
 	.image_container{
 		position: relative;
 		width: 100%;
 		height: auto;
-		margin-top: 28px;
-		margin-bottom: 28px;
+		margin-top: 12px;
+		margin-bottom: 12px;
 	}
 
 	.description{
@@ -323,7 +323,7 @@
 		scrollbar-width: thin;
 		scrollbar-color: #000000 #ffffff;
 		flex-direction: column;
-		border: 3px solid #000000;
+		border: 1px solid #000000;
 		background-color: #ffffff;
 		display: none;
 		z-index: 2;
@@ -354,11 +354,11 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		font-size: 18px;
+		font-size: 20px;
 		font-family: "Absolute Pro", sans-serif;
 		text-align: center;
-		margin-top: 32px;
-		margin-bottom: 32px;
+		margin-top: 13px;
+		margin-bottom: 13px;
 		margin-left: 5%;
 	}
 
@@ -366,10 +366,10 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		font-size: 14px;
+		font-size: 16px;
 		font-family: "Absolute Pro", sans-serif;
-		margin-top: 32px;
-		margin-bottom: 32px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 		margin-left: 5%;
 	}
 
@@ -383,11 +383,11 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		font-size: 12px;
+		font-size: 14px;
 		font-family: "Absolute Pro", sans-serif;
 		margin-left: 5%;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin-top: 8px;
+		margin-bottom: 8px;
 	}
 
 	.navi{
@@ -398,11 +398,11 @@
 
 	.footer{
 		width: 100%;
-		border-top: 3px solid #000000;
+		border-top: 1px solid #000000;
 		background-color: #f4f4f4;
 		text-align: center;
-		padding-top: 12px;
-		padding-bottom: 12px;
+		padding-top: 5px;
+		padding-bottom: 5px;
 	}
 
 	.footer_link{
