@@ -3,8 +3,8 @@ if (window.innerWidth > 900){
     up.style.top = scrollY + window.innerHeight - 180 + 'px';
     down.style.top = scrollY + window.innerHeight - 80 + 'px';
 }else{
-    up.style.top = scrollY + window.innerHeight - 36 + 'px';
-    down.style.top = scrollY + window.innerHeight - 16 + 'px';
+    up.style.top = scrollY + window.innerHeight - 72 + 'px';
+    down.style.top = scrollY + window.innerHeight - 32 + 'px';
 }
 var height = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
 up.onclick = function(event){
