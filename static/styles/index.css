@@ -291,17 +291,17 @@
 
 	.main{
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: row-reverse;
 		width: 100%;
 	}
 
 	.left{
-		width: 50%;
+		width: 100%;
 	}
 
 	.right{
 		position: relative;
-		width: 50%;
+		width: 100%;
 	}
 
 	.main_img_container {
