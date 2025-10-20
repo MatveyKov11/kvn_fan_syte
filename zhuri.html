@@ -2,7 +2,12 @@
 <html lang="ru">
 <head>
 	<title>Редакторы студлиги КВН</title>
-	<link href="static/styles/zhuri.css" rel="stylesheet" type="text/css">
+	@media (min-width: 600px){
+		<link href="static/styles/zhuri_mobile.css" rel="stylesheet" type="text/css">
+	}
+	@media (min-width: 901px){
+		<link href="static/styles/zhuri.css" rel="stylesheet" type="text/css">
+	}
 </head>
 <body>
 <div class="head_container"> <img src="./static/images/head_wide.jpg" width = 100%> </div>
@@ -14,219 +19,233 @@
     <button class="chap_button" onclick="location.href='./winners.html'">ПОБЕДИТЕЛИ СЕЗОНОВ</button>
 </div>
 <div class="cards">
-    <div class="card">
-		<div class="head1">
-			Константин Зимин
-		</div>
-		<div class="image_container">
-            <div class="show" id="show1">
-				<img src="static/images/info.png" class="icon">
+	<div class="row_odd">
+		<div class="card">
+			<div class="head1">
+				Константин Зимин
 			</div>
-            <img class="back_img" src="static/images/zhuri_crop/konst_zim_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/konst_zim_transp.png">
-		</div>
-		<div class="window" id="window1">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close1">
-					<img src="static/images/close.png" class="icon">
+			<div class="image_container">
+				<div class="show" id="show1">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/zhuri_crop/konst_zim_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/konst_zim_transp.png">
+			</div>
+			<div class="window" id="window1">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close1">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"Добрый день, с вами Константин Зимин.<br/>
+						В КВН начал играть с 2000 года, сразу как поступил в институт. Посвящения, Юморины, мероприятия в Университете дали много опыта, с тех пор так или иначе занимаюсь организационной работой. Работал арт-директором в Спасской, вел и организовывал все что происходило в ресторане, ночном клуб, боулинге, Макдаках. В ТНТ несколько лет делали тусовки в духе Камеди Клаб. #ЮморВсегдаРядом<br/>
+						Параллельно работал, учился, женился, родили сына, посадил дерево)<br/>
+						После универа ушел с ночной работы, несколько лет был коммерческим директором в рекламном агентстве.<br/>
+						По итогу в 2013 году открыл свое Event-агентство ОТ и ДО.<br/>
+						Люблю КВН, Киберспорт, стараюсь развивать эти направления в Вологодской области и создавать для нас с вами условия для роста.<br/>
+						Спасибо всем, кто поддерживает и помогает!<br/>
+						Все свободное время стараюсь быть с семьей. Люблю жену, играть на компьютере и отдых за городом)"</p>
+					</div>
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"Добрый день, с вами Константин Зимин.<br/>
-                    В КВН начал играть с 2000 года, сразу как поступил в институт. Посвящения, Юморины, мероприятия в Университете дали много опыта, с тех пор так или иначе занимаюсь организационной работой. Работал арт-директором в Спасской, вел и организовывал все что происходило в ресторане, ночном клуб, боулинге, Макдаках. В ТНТ несколько лет делали тусовки в духе Камеди Клаб. #ЮморВсегдаРядом<br/>
-                    Параллельно работал, учился, женился, родили сына, посадил дерево)<br/>
-                    После универа ушел с ночной работы, несколько лет был коммерческим директором в рекламном агентстве.<br/>
-                    По итогу в 2013 году открыл свое Event-агентство ОТ и ДО.<br/>
-                    Люблю КВН, Киберспорт, стараюсь развивать эти направления в Вологодской области и создавать для нас с вами условия для роста.<br/>
-                    Спасибо всем, кто поддерживает и помогает!<br/>
-                    Все свободное время стараюсь быть с семьей. Люблю жену, играть на компьютере и отдых за городом)"</p>
-                </div>
-			</div>
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Председатель жюри, организатор Вологодской лиги КВН.
-            </div>
-		</div>
-	</div>
-	<div class="card">
-		<div class="head1">
-			Илья Горячев
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/il_gor_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/il_gor_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Креативный директор мощнейшего баскетбольного клуба Вологодской области Вологда-Чеваката.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Лидия Соколова
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/lid_sok_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/lid_sok_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Начальник Управления воспитательной и спортивной деятельности Вологодского госуниверситета.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Екатерина Румянцева
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/ekat_rum_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/ekat_rum_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Заместитель начальника Управления воспитательной и спортивной деятельности Вологодского госуниверситета.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Владислав Якуничев
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/vlad_yac_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/vlad_yac_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Руководитель Школьной лиги КВН.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Виталий Кобыльников
-		</div>
-		<div class="image_container">
-            <div class="show" id="show2">
-				<img src="static/images/info.png" class="icon">
-			</div>
-            <img class="back_img" src="static/images/zhuri_crop/vit_kob_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/vit_kob_transp.png">
-		</div>
-		<div class="window" id="window2">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close2">
-					<img src="static/images/close.png" class="icon">
+			<div class="description">
+				<div class="main_text">
+					Председатель жюри, организатор Вологодской лиги КВН.
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"КВН — это про талант, молодость и добрую энергию.<br/>
-                    Студенческая лига КВН меня, однозначно, впечатлила.<br/>
-                    Своими честными шутками, запоминающимися выступлениями, яркими участниками и активными зрителями.<br/>
-                    Поддерживаем и будем поддерживать КВН в Вологодской области. Впереди - только лучшее! Ещё 4 игры сезона, как минимум!<br/>
-                    И да, отличный состав жюри."</p>
-                </div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Илья Горячев
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/il_gor_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/il_gor_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Креативный директор мощнейшего баскетбольного клуба Вологодской области Вологда-Чеваката.
+				</div>
 			</div>
 		</div>
-		<div class="description">
-            <div class="main_text">
-			    <p>Министр культуры Вологодской области.</p>
-            </div>
+		<div class="card">
+			<div class="head1">
+				Лидия Соколова
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/lid_sok_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/lid_sok_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Начальник Управления воспитательной и спортивной деятельности Вологодского госуниверситета.
+				</div>
+			</div>
 		</div>
 	</div>
-    <div class="card">
-		<div class="head1">
-			Ариша Таничева
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Екатерина Румянцева
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/ekat_rum_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/ekat_rum_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Заместитель начальника Управления воспитательной и спортивной деятельности Вологодского госуниверситета.
+				</div>
+			</div>
 		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/ar_tan_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/ar_tan_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Участница команды КВН "35 элемент".
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Всеволод Маслов
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/sev_mas_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/sev_mas_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Участник команды КВН "35 элемент".
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Дмитрий Кривошеев
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/dm_kriv_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/dm_kriv_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Доцент кафедры биологии и химии Вологодского госуниверситета, победитель третьего сезона "Лиги лекторов".
-            </div>
+		<div class="card">
+			<div class="head1">
+				Владислав Якуничев
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/vlad_yac_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/vlad_yac_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Руководитель Школьной лиги КВН.
+				</div>
+			</div>
 		</div>
 	</div>
-    <div class="card">
-		<div class="head1">
-			Кирилл Устьян
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Виталий Кобыльников
+			</div>
+			<div class="image_container">
+				<div class="show" id="show2">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/zhuri_crop/vit_kob_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/vit_kob_transp.png">
+			</div>
+			<div class="window" id="window2">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close2">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"КВН — это про талант, молодость и добрую энергию.<br/>
+						Студенческая лига КВН меня, однозначно, впечатлила.<br/>
+						Своими честными шутками, запоминающимися выступлениями, яркими участниками и активными зрителями.<br/>
+						Поддерживаем и будем поддерживать КВН в Вологодской области. Впереди - только лучшее! Ещё 4 игры сезона, как минимум!<br/>
+						И да, отличный состав жюри."</p>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="main_text">
+					<p>Министр культуры Вологодской области.</p>
+				</div>
+			</div>
 		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/kir_ust_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/kir_ust_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Участник команды "Череповегас", победитель 7 сезона Студенческой лиги КВН
-            </div>
+		<div class="card">
+			<div class="head1">
+				Ариша Таничева
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/ar_tan_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/ar_tan_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Участница команды КВН "35 элемент".
+				</div>
+			</div>
 		</div>
 	</div>
-    <div class="card">
-		<div class="head1">
-			Виктория Окунева
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Всеволод Маслов
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/sev_mas_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/sev_mas_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Участник команды КВН "35 элемент".
+				</div>
+			</div>
 		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/vik_ok_back.jpg">
-            <img class="front_img" src="static/images/zhuri_crop/vik_ok_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Студентка ВоГУ, активистка студ-медиа "Бывает Же".
-            </div>
+		<div class="card">
+			<div class="head1">
+				Дмитрий Кривошеев
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/dm_kriv_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/dm_kriv_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Доцент кафедры биологии и химии Вологодского госуниверситета, победитель третьего сезона "Лиги лекторов".
+				</div>
+			</div>
 		</div>
 	</div>
-    <div class="card">
-		<div class="head1">
-			Максим Шипаков
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Кирилл Устьян
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/kir_ust_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/kir_ust_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Участник команды "Череповегас", победитель 7 сезона Студенческой лиги КВН
+				</div>
+			</div>
 		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/zhuri_crop/maks_sch_back.jpg">
-                <img class="front_img" src="static/images/zhuri_crop/maks_sch_transp.png">
+		<div class="card">
+			<div class="head1">
+				Виктория Окунева
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/vik_ok_back.jpg">
+				<img class="front_img" src="static/images/zhuri_crop/vik_ok_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Студентка ВоГУ, активистка студ-медиа "Бывает Же".
+				</div>
+			</div>
 		</div>
-		<div class="description">
-            <div class="main_text">
-			    Преподаватель ВоГУ, руководитель студ-медиа "Бывает Же".
-            </div>
+	</div>
+	<div class="row_odd">
+		<div class="card">
+			<div class="head1">
+				Максим Шипаков
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/zhuri_crop/maks_sch_back.jpg">
+					<img class="front_img" src="static/images/zhuri_crop/maks_sch_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Преподаватель ВоГУ, руководитель студ-медиа "Бывает Же".
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

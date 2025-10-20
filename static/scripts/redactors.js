@@ -40,11 +40,35 @@ close6.onclick = function(event) {
 	window6.style.display = 'none';
 }
 
+window1.style.left = 50 + 'px';
+window1.style.width = window.innerWidth - 100 + 'px';
+window1.style.height = window.innerHeight - 100 + 'px';
+
+window2.style.left = 50 + 'px';
+window2.style.width = window.innerWidth - 100 + 'px';
+window2.style.height = window.innerHeight - 100 + 'px';
+
+window3.style.left = 50 + 'px';
+window3.style.width = window.innerWidth - 100 + 'px';
+window3.style.height = window.innerHeight - 100 + 'px';
+
+window4.style.left = 50 + 'px';
+window4.style.width = window.innerWidth - 100 + 'px';
+window4.style.height = window.innerHeight - 100 + 'px';
+
+window5.style.left = 50 + 'px';
+window5.style.width = window.innerWidth - 100 + 'px';
+window5.style.height = window.innerHeight - 100 + 'px';
+
+window6.style.left = 50 + 'px';
+window6.style.width = window.innerWidth - 100 + 'px';
+window6.style.height = window.innerHeight - 100 + 'px';
+
 document.onscroll = function(event) {
-	window1.style.top = scrollY + 20 + 'px';
-    window2.style.top = scrollY + 20 + 'px';
-    window3.style.top = scrollY + 20 + 'px';
-    window4.style.top = scrollY + 20 + 'px';
-    window5.style.top = scrollY + 20 + 'px';
-    window6.style.top = scrollY + 20 + 'px';
+	window1.style.top = scrollY + 50 + 'px';
+    window2.style.top = scrollY + 50 + 'px';
+    window3.style.top = scrollY + 50 + 'px';
+    window4.style.top = scrollY + 50 + 'px';
+    window5.style.top = scrollY + 50 + 'px';
+    window6.style.top = scrollY + 50 + 'px';
 }

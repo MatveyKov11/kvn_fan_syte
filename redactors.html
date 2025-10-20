@@ -2,7 +2,12 @@
 <html lang="ru">
 <head>
 	<title>Редакторы студлиги КВН</title>
-	<link href="static/styles/redactors.css" rel="stylesheet" type="text/css">
+	@media (min-width: 600px){
+		<link href="static/styles/redactors_mobile.css" rel="stylesheet" type="text/css">
+	}
+	@media (min-width: 901px){
+		<link href="static/styles/redactors.css" rel="stylesheet" type="text/css">
+	}
 </head>
 <body>
 <div class="head_container"> <img src="./static/images/head_wide.jpg" width = 100%> </div>
@@ -14,256 +19,266 @@
     <button class="chap_button" onclick="location.href='./winners.html'">ПОБЕДИТЕЛИ СЕЗОНОВ</button>
 </div>
 <div class="cards">
-    <div class="card">
-		<div class="head1">
-			Никита Крылов
-		</div>
-		<div class="image_container">
-            <div class="show" id="show1">
-				<img src="static/images/info.png" class="icon">
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Никита Крылов
 			</div>
-            <img class="back_img" src="static/images/redactors_crop/nik_kr_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/nik_kr_transp.png">
-		</div>
-		<div class="window" id="window1">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close1">
-					<img src="static/images/close.png" class="icon">
+			<div class="image_container">
+				<div class="show" id="show1">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/nik_kr_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/nik_kr_transp.png">
+			</div>
+			<div class="window" id="window1">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close1">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"Мой путь в молодежном движении КВН начался с 2015 года, когда меня пригласили в организационный комитет Вологодской Областной Юниор-Лиги КВН. На тот момент я учился еще в 10 классе. Уникальность Лиги была в том, что ее делали школьники для школьников - практически никому в оргкомитете на тот момент не было 18-ти лет, а к нам приезжали играть команды из Ярославской, Архангельской областей и районов Вологодской области. Когда мне исполнилось 18 лет (а другим организаторам еще нет), мы приняли решение принять участие в областном конкурсе грантов физических лиц. Честно сказать, я не очень понимал что это такое, но именно мне предстояло идти на очную защиту нашего проекта. В итоге, мы, школьники, выиграли на организацию школы КВН порядка 50 000 руб.</p>
+						<p>А дальше - успешная сдача ЕГЭ, принятие решения остаться в Вологде и начать обучение в ВоГУ (хотя был выбор учиться и в других городах). Меня пригласили стать участником команды КВН "Картина Маслом", которая на тот момент прошла во второй сезон Студенческой Лиги КВН ВоГУ.</p>
+						<p>По результатам двух игр в СтудЛиге приняли решение собрать сборную ВоГУ и поехать в одну из Официальных Лиг МС КВН - Региональную Ярославскую Лигу КВН. Я был администратором, а команда называлась "Все свои". Мы достаточно успешно выступали, стали чемпионами Ярославской, Костромской, Вологодской Лиг КВН, заняли второе место в Межрегиональной Лиге МС КВН "Балтика", два раза съездили на Международной Фестиваль команд КВН "КиВиН". И за всю логистику, проживание, административные вопросы отвечал я. В настоящее время продолжаю сотрудничество еще с несколькими командами."</p>
+					</div>
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"Мой путь в молодежном движении КВН начался с 2015 года, когда меня пригласили в организационный комитет Вологодской Областной Юниор-Лиги КВН. На тот момент я учился еще в 10 классе. Уникальность Лиги была в том, что ее делали школьники для школьников - практически никому в оргкомитете на тот момент не было 18-ти лет, а к нам приезжали играть команды из Ярославской, Архангельской областей и районов Вологодской области. Когда мне исполнилось 18 лет (а другим организаторам еще нет), мы приняли решение принять участие в областном конкурсе грантов физических лиц. Честно сказать, я не очень понимал что это такое, но именно мне предстояло идти на очную защиту нашего проекта. В итоге, мы, школьники, выиграли на организацию школы КВН порядка 50 000 руб.</p>
-                    <p>А дальше - успешная сдача ЕГЭ, принятие решения остаться в Вологде и начать обучение в ВоГУ (хотя был выбор учиться и в других городах). Меня пригласили стать участником команды КВН "Картина Маслом", которая на тот момент прошла во второй сезон Студенческой Лиги КВН ВоГУ.</p>
-                    <p>По результатам двух игр в СтудЛиге приняли решение собрать сборную ВоГУ и поехать в одну из Официальных Лиг МС КВН - Региональную Ярославскую Лигу КВН. Я был администратором, а команда называлась "Все свои". Мы достаточно успешно выступали, стали чемпионами Ярославской, Костромской, Вологодской Лиг КВН, заняли второе место в Межрегиональной Лиге МС КВН "Балтика", два раза съездили на Международной Фестиваль команд КВН "КиВиН". И за всю логистику, проживание, административные вопросы отвечал я. В настоящее время продолжаю сотрудничество еще с несколькими командами."</p>
-                </div>
-			</div>
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Организатор и редактор лиги, преподаватель ВоГУ, играл в КВН (много лет назад).
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Василий Авдюнин
-		</div>
-		<div class="image_container">
-            <div class="show" id="show2">
-				<img src="static/images/info.png" class="icon">
-			</div>
-            <img class="back_img" src="static/images/redactors_crop/vas_avd_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/vas_avd_transp.png">
-		</div>
-		<div class="window" id="window2">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close2">
-					<img src="static/images/close.png" class="icon">
+			<div class="description">
+				<div class="main_text">
+					Организатор и редактор лиги, преподаватель ВоГУ, играл в КВН (много лет назад).
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"Я работаю старшим преподавателем кафедры философии Вологодского государственного университета. На этой должности меня сопровождает бесконечное число занятий: преподавание, создание электронных учебно-методических комплексов, проектная деятельность, ведение социальных сетей, научная работа, сейчас вот приемная компания в самом разгаре - так что увлекательно провожу время в работе с абитуриентами. В общем, в рамках одной должности выступаю человеком-оркестром. Периодически где-то что-то рассказываю вне университета — школы КВН или веду лекции Общества Знание. </p>
-                    <p>Вне работы люблю провести время с семьей — это для меня самое важное. КВН в моей жизни с 2011 года — когда наша команда «Обход в обход» сыграла первую игру в Сокольской лиге КВН. В следующем году юбилей — 15 лет, получается!"</p>
-                </div>
+		</div>
+		<div class="card">
+			<div class="head1">
+				Василий Авдюнин
 			</div>
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Организатор и редактор лиги, сбежавший из рая преподаватель ВоГУ, играл в КВН (много лет назад).
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Стас Низовцев
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/redactors_crop/stas_niz_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/stas_niz_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Ведущий и редактор лиги, выпускнин ВоГУ, играл в КВН (много лет назад).
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Александра Нивина
-		</div>
-		<div class="image_container">
-            <div class="show" id="show3">
-				<img src="static/images/info.png" class="icon">
+			<div class="image_container">
+				<div class="show" id="show2">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/vas_avd_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/vas_avd_transp.png">
 			</div>
-            <img class="back_img" src="static/images/redactors_crop/sch_niv_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/sch_niv_transp.png">
-		</div>
-		<div class="window" id="window3">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close3">
-					<img src="static/images/close.png" class="icon">
+			<div class="window" id="window2">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close2">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"Я работаю старшим преподавателем кафедры философии Вологодского государственного университета. На этой должности меня сопровождает бесконечное число занятий: преподавание, создание электронных учебно-методических комплексов, проектная деятельность, ведение социальных сетей, научная работа, сейчас вот приемная компания в самом разгаре - так что увлекательно провожу время в работе с абитуриентами. В общем, в рамках одной должности выступаю человеком-оркестром. Периодически где-то что-то рассказываю вне университета — школы КВН или веду лекции Общества Знание. </p>
+						<p>Вне работы люблю провести время с семьей — это для меня самое важное. КВН в моей жизни с 2011 года — когда наша команда «Обход в обход» сыграла первую игру в Сокольской лиге КВН. В следующем году юбилей — 15 лет, получается!"</p>
+					</div>
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"КВН я смотрю с детства, а играть в него начала 7 лет назад, когда поступила в ВоГУ. До этого на сцену выходила по собственному желанию только один раз - на каком-то школьном мероприятии. Показывали с одноклассниками миниатюру команды КВН «Станция Спортивная». </p>
-                    <p>Ещё состою в Клубе Весёлых и Нетрудоустроенных, сокращённо тоже КВН. КВН везде, ура-ура!</p>
-                    <p>В ВоГУ я училась на переводчика.</p>
-                    <p>Ещё я занимаюсь фотографией больше 10 лет. Поспособствовал развитию интереса в этом деле мой папа - увидел, как я ношусь везде с телефоном и постоянно фотографирую, и подарил камеру. Очень ему за это благодарна! Я часто фотографирую квнщиков перед играми, возможно вы видели мои фотографии закулисья в группе Лиги. Недавно стала фотографом интернет-журнала «повод», ребята освещают события в Вологде. </p>
-                    <p>Ещё вяжу крючком, делаю игрушки из ваты и папье-маше! Сейчас обороты рукодельного творчества снизились, но постоянно какая-нибудь игрушка находится в процессе создания."</p>
-                </div>
-            </div>
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, фотограф, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось".
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Лиса Данкевич
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/redactors_crop/lis_dan_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/lis_dan_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, участница команды КВН "Квартира 74", (бывший) председатель студсовета Университетского колледжа.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Михаил Мухин
-		</div>
-		<div class="image_container">
-            <div class="show" id="show4">
-				<img src="static/images/info.png" class="icon">
-			</div>
-            <img class="back_img" src="static/images/redactors_crop/mih_muh_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/mih_muh_back.jpg">
-		</div>
-		<div class="window" id="window4">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close4">
-					<img src="static/images/close.png" class="icon">
+			<div class="description">
+				<div class="main_text">
+					Организатор и редактор лиги, сбежавший из рая преподаватель ВоГУ, играл в КВН (много лет назад).
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"Привет всем! Меня зовут Мухин Михаил или Майкл, как вам удобнее. На данный момент трудоустроен в команде КВН «Так получилось», чему безмерно рад!</p>
-                    <p>Трудно сказать, чем я занимаюсь, кроме КВНа. Например, недавно я окончил Вологодский институт права и экономики ФСИН России, получил диплом по специальности юриспруденция, а зарабатываю тем, что могу провести вам день рождения или свадьбу. Ну, или если нужно, составлю завещание, такой вот юрист!</p>
-                    <p>Интересный факт: отращиваю усы специально для КВНа. Кстати, четвертого октября состоится музыкальный фестиваль, так что усы уже готовы.</p>
-                    <p>К слову о том, как давно КВН в моей жизни. Дело было в конце 2015 года, в маленьком городе Кириллов. Я совершенно случайно попал в команду КВН «ШБ» и всё завертелось. </p>
-                    <p>В 2016 году мы выиграли Вологодскую юниор-лигу КВН, далее мы продолжили выступать уже в Вологодской лиге. В 2019 году нашу команду пригласили на фестиваль Всероссийской юнармейской лиги КВН, где наша команда достаточно успешно выступила и попала в эфир телеканала «Звезда». А еще с прошлого года, являюсь редактором студенческой лиги КВН ВоГУ! Ну и в конце хотелось бы перечислить команды, в которых я также играл: «Сборная депутатских детей», «Олег», «Рассикистан», «Родное Сердце».</p>
-                    <p>Ну, вот так получилось! Спасибо за внимание, встретимся на КВНе!</p>
-			    </div>
-            </div>
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось".
-            </div>
 		</div>
 	</div>
-    <div class="card">
-		<div class="head1">
-			Алина Теребова
-		</div>
-		<div class="image_container">
-            <div class="show" id="show5">
-				<img src="static/images/info.png" class="icon">
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Стас Низовцев
 			</div>
-            <img class="back_img" src="static/images/redactors_crop/al_ter_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/al_ter_transp.png">
-		</div>
-		<div class="window" id="window5">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close5">
-					<img src="static/images/close.png" class="icon">
+			<div class="image_container">
+				<img class="back_img" src="static/images/redactors_crop/stas_niz_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/stas_niz_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Ведущий и редактор лиги, выпускнин ВоГУ, играл в КВН (много лет назад).
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"КВНом занимаюсь с 2018 года — играю, пишу, выступаю, редактирую. Сейчас работаю инженером в АО «ВОЭК».</p>
-                    <p>На работе я занимаюсь проверкой проектной документации и подключением потребителей к электросетям, в том числе по проектам благоустройства города. В сентябре планирую пройти аттестацию и получить должность ведущего инженера.</p>
-                    <p>Помимо работы и КВНа, активно занимаюсь творчеством: пою на матчах Чевакаты, выступаю на городских мероприятиях. Ближайшее выступление уже сегодня, 26 июля, на разогреве у NANSI & SIDOROV (уже не актуально)</p>
-                    <p>Вокалом занимаюсь с детства — сначала пела каверы на конкурсах и мероприятиях. На втором курсе поняла, что хочется чего-то большего, и начала писать собственные песни. С тех пор выступаю с авторским материалом, победила в «Студвесне» в номинации «Авторская песня»"</p>
-			    </div>
-            </div>
 		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, певица, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось", участница команды КВН "«Рассикистан»".
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Екатерина Рубцова
-		</div>
-		<div class="image_container">
-            <img class="back_img" src="static/images/redactors_crop/kat_rub_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/kat_rub_transp.png">
-		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, участница команды КВН "Штиль", председатель студсовета Инженерно-строительного института.
-            </div>
-		</div>
-	</div>
-    <div class="card">
-		<div class="head1">
-			Сергей Падчин
-		</div>
-		<div class="image_container">
-            <div class="show" id="show6">
-				<img src="static/images/info.png" class="icon">
+		<div class="card">
+			<div class="head1">
+				Александра Нивина
 			</div>
-            <img class="back_img" src="static/images/redactors_crop/ser_pad_back.jpg">
-            <img class="front_img" src="static/images/redactors_crop/ser_pad_transp.png">
-		</div>
-		<div class="window" id="window6">
-			<div class="wind_head">
-                <div class="head1">
-                    Интервью
-                </div>
-				<div class="close" id="close6">
-					<img src="static/images/close.png" class="icon">
+			<div class="image_container">
+				<div class="show" id="show3">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/sch_niv_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/sch_niv_transp.png">
+			</div>
+			<div class="window" id="window3">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close3">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"КВН я смотрю с детства, а играть в него начала 7 лет назад, когда поступила в ВоГУ. До этого на сцену выходила по собственному желанию только один раз - на каком-то школьном мероприятии. Показывали с одноклассниками миниатюру команды КВН «Станция Спортивная». </p>
+						<p>Ещё состою в Клубе Весёлых и Нетрудоустроенных, сокращённо тоже КВН. КВН везде, ура-ура!</p>
+						<p>В ВоГУ я училась на переводчика.</p>
+						<p>Ещё я занимаюсь фотографией больше 10 лет. Поспособствовал развитию интереса в этом деле мой папа - увидел, как я ношусь везде с телефоном и постоянно фотографирую, и подарил камеру. Очень ему за это благодарна! Я часто фотографирую квнщиков перед играми, возможно вы видели мои фотографии закулисья в группе Лиги. Недавно стала фотографом интернет-журнала «повод», ребята освещают события в Вологде. </p>
+						<p>Ещё вяжу крючком, делаю игрушки из ваты и папье-маше! Сейчас обороты рукодельного творчества снизились, но постоянно какая-нибудь игрушка находится в процессе создания."</p>
+					</div>
 				</div>
 			</div>
-			<div class="bio">
-                <div class="main_text">
-                    <p>"Девять лет назад в ЧГУ я впервые вышел на сцену КВН. Сейчас, кроме выступлений за свою команду, я редактирую студенческую лигу КВН, но уже в ВоГУ: помогаю студентам сделать первые робкие шаги в юморе. </p>
-                    <p>Ребята из студлиги нередко успешно выступают в областной лиге; радуюсь их победам больше, чем своим. </p>
-                    <p>Я работаю на «Вологодском мороженом»: отгружаю продукцию в самые разные уголки нашей страны. Наша компания — крупнейший российский производитель мороженого, выпускает более 250 наименований</p>
-                    <p>В свободное от работы и КВН время люблю слушать музыку и читать стихи, иногда сам что-то пишу для себя."</p>
-                </div>
-            </div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, фотограф, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось".
+				</div>
+			</div>
 		</div>
-		<div class="description">
-            <div class="main_text">
-			    Редактор лиги, играет много в каких лигах КВН в команде "35 элемент", участник команды КВН "Штиль".
-            </div>
+	</div>
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Лиса Данкевич
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/redactors_crop/lis_dan_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/lis_dan_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, участница команды КВН "Квартира 74", (бывший) председатель студсовета Университетского колледжа.
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="head1">
+				Михаил Мухин
+			</div>
+			<div class="image_container">
+				<div class="show" id="show4">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/mih_muh_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/mih_muh_back.jpg">
+			</div>
+			<div class="window" id="window4">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close4">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"Привет всем! Меня зовут Мухин Михаил или Майкл, как вам удобнее. На данный момент трудоустроен в команде КВН «Так получилось», чему безмерно рад!</p>
+						<p>Трудно сказать, чем я занимаюсь, кроме КВНа. Например, недавно я окончил Вологодский институт права и экономики ФСИН России, получил диплом по специальности юриспруденция, а зарабатываю тем, что могу провести вам день рождения или свадьбу. Ну, или если нужно, составлю завещание, такой вот юрист!</p>
+						<p>Интересный факт: отращиваю усы специально для КВНа. Кстати, четвертого октября состоится музыкальный фестиваль, так что усы уже готовы.</p>
+						<p>К слову о том, как давно КВН в моей жизни. Дело было в конце 2015 года, в маленьком городе Кириллов. Я совершенно случайно попал в команду КВН «ШБ» и всё завертелось. </p>
+						<p>В 2016 году мы выиграли Вологодскую юниор-лигу КВН, далее мы продолжили выступать уже в Вологодской лиге. В 2019 году нашу команду пригласили на фестиваль Всероссийской юнармейской лиги КВН, где наша команда достаточно успешно выступила и попала в эфир телеканала «Звезда». А еще с прошлого года, являюсь редактором студенческой лиги КВН ВоГУ! Ну и в конце хотелось бы перечислить команды, в которых я также играл: «Сборная депутатских детей», «Олег», «Рассикистан», «Родное Сердце».</p>
+						<p>Ну, вот так получилось! Спасибо за внимание, встретимся на КВНе!</p>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось".
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="card">
+			<div class="head1">
+				Алина Теребова
+			</div>
+			<div class="image_container">
+				<div class="show" id="show5">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/al_ter_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/al_ter_transp.png">
+			</div>
+			<div class="window" id="window5">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close5">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"КВНом занимаюсь с 2018 года — играю, пишу, выступаю, редактирую. Сейчас работаю инженером в АО «ВОЭК».</p>
+						<p>На работе я занимаюсь проверкой проектной документации и подключением потребителей к электросетям, в том числе по проектам благоустройства города. В сентябре планирую пройти аттестацию и получить должность ведущего инженера.</p>
+						<p>Помимо работы и КВНа, активно занимаюсь творчеством: пою на матчах Чевакаты, выступаю на городских мероприятиях. Ближайшее выступление уже сегодня, 26 июля, на разогреве у NANSI & SIDOROV (уже не актуально)</p>
+						<p>Вокалом занимаюсь с детства — сначала пела каверы на конкурсах и мероприятиях. На втором курсе поняла, что хочется чего-то большего, и начала писать собственные песни. С тех пор выступаю с авторским материалом, победила в «Студвесне» в номинации «Авторская песня»"</p>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, певица, играет в Вологодской и Ярославской лигах КВН в команде "Так получилось", участница команды КВН "«Рассикистан»".
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="head1">
+				Екатерина Рубцова
+			</div>
+			<div class="image_container">
+				<img class="back_img" src="static/images/redactors_crop/kat_rub_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/kat_rub_transp.png">
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, участница команды КВН "Штиль", председатель студсовета Инженерно-строительного института.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row_odd">
+		<div class="card">
+			<div class="head1">
+				Сергей Падчин
+			</div>
+			<div class="image_container">
+				<div class="show" id="show6">
+					<img src="static/images/info.png" class="icon">
+				</div>
+				<img class="back_img" src="static/images/redactors_crop/ser_pad_back.jpg">
+				<img class="front_img" src="static/images/redactors_crop/ser_pad_transp.png">
+			</div>
+			<div class="window" id="window6">
+				<div class="wind_head">
+					<div class="head1">
+						Интервью
+					</div>
+					<div class="close" id="close6">
+						<img src="static/images/close.png" class="icon">
+					</div>
+				</div>
+				<div class="bio">
+					<div class="main_text">
+						<p>"Девять лет назад в ЧГУ я впервые вышел на сцену КВН. Сейчас, кроме выступлений за свою команду, я редактирую студенческую лигу КВН, но уже в ВоГУ: помогаю студентам сделать первые робкие шаги в юморе. </p>
+						<p>Ребята из студлиги нередко успешно выступают в областной лиге; радуюсь их победам больше, чем своим. </p>
+						<p>Я работаю на «Вологодском мороженом»: отгружаю продукцию в самые разные уголки нашей страны. Наша компания — крупнейший российский производитель мороженого, выпускает более 250 наименований</p>
+						<p>В свободное от работы и КВН время люблю слушать музыку и читать стихи, иногда сам что-то пишу для себя."</p>
+					</div>
+				</div>
+			</div>
+			<div class="description">
+				<div class="main_text">
+					Редактор лиги, играет много в каких лигах КВН в команде "35 элемент", участник команды КВН "Штиль".
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

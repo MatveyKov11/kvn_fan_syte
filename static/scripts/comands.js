@@ -96,19 +96,75 @@ close14.onclick = function(event) {
 	window14.style.display = 'none';
 }
 
+window1.style.left = 50 + 'px';
+window1.style.width = window.innerWidth - 100 + 'px';
+window1.style.height = window.innerHeight - 100 + 'px';
+
+window2.style.left = 50 + 'px';
+window2.style.width = window.innerWidth - 100 + 'px';
+window2.style.height = window.innerHeight - 100 + 'px';
+
+window3.style.left = 50 + 'px';
+window3.style.width = window.innerWidth - 100 + 'px';
+window3.style.height = window.innerHeight - 100 + 'px';
+
+window4.style.left = 50 + 'px';
+window4.style.width = window.innerWidth - 100 + 'px';
+window4.style.height = window.innerHeight - 100 + 'px';
+
+window5.style.left = 50 + 'px';
+window5.style.width = window.innerWidth - 100 + 'px';
+window5.style.height = window.innerHeight - 100 + 'px';
+
+window6.style.left = 50 + 'px';
+window6.style.width = window.innerWidth - 100 + 'px';
+window6.style.height = window.innerHeight - 100 + 'px';
+
+window7.style.left = 50 + 'px';
+window7.style.width = window.innerWidth - 100 + 'px';
+window7.style.height = window.innerHeight - 100 + 'px';
+
+window8.style.left = 50 + 'px';
+window8.style.width = window.innerWidth - 100 + 'px';
+window8.style.height = window.innerHeight - 100 + 'px';
+
+window9.style.left = 50 + 'px';
+window9.style.width = window.innerWidth - 100 + 'px';
+window9.style.height = window.innerHeight - 100 + 'px';
+
+window10.style.left = 50 + 'px';
+window10.style.width = window.innerWidth - 100 + 'px';
+window10.style.height = window.innerHeight - 100 + 'px';
+
+window11.style.left = 50 + 'px';
+window11.style.width = window.innerWidth - 100 + 'px';
+window11.style.height = window.innerHeight - 100 + 'px';
+
+window12.style.left = 50 + 'px';
+window12.style.width = window.innerWidth - 100 + 'px';
+window12.style.height = window.innerHeight - 100 + 'px';
+
+window13.style.left = 50 + 'px';
+window13.style.width = window.innerWidth - 100 + 'px';
+window13.style.height = window.innerHeight - 100 + 'px';
+
+window14.style.left = 50 + 'px';
+window14.style.width = window.innerWidth - 100 + 'px';
+window14.style.height = window.innerHeight - 100 + 'px';
+
 document.onscroll = function(event) {
-	window1.style.top = scrollY + 20 + 'px';
-    window2.style.top = scrollY + 20 + 'px';
-    window3.style.top = scrollY + 20 + 'px';
-    window4.style.top = scrollY + 20 + 'px';
-    window5.style.top = scrollY + 20 + 'px';
-    window6.style.top = scrollY + 20 + 'px';
-    window7.style.top = scrollY + 20 + 'px';
-    window8.style.top = scrollY + 20 + 'px';
-    window9.style.top = scrollY + 20 + 'px';
-    window10.style.top = scrollY + 20 + 'px';
-    window11.style.top = scrollY + 20 + 'px';
-    window12.style.top = scrollY + 20 + 'px';
-    window13.style.top = scrollY + 20 + 'px';
-    window14.style.top = scrollY + 20 + 'px';
+	window1.style.top = scrollY + 50 + 'px';
+    window2.style.top = scrollY + 50 + 'px';
+    window3.style.top = scrollY + 50 + 'px';
+    window4.style.top = scrollY + 50 + 'px';
+    window5.style.top = scrollY + 50 + 'px';
+    window6.style.top = scrollY + 50 + 'px';
+    window7.style.top = scrollY + 50 + 'px';
+    window8.style.top = scrollY + 50 + 'px';
+    window9.style.top = scrollY + 50 + 'px';
+    window10.style.top = scrollY + 50 + 'px';
+    window11.style.top = scrollY + 50 + 'px';
+    window12.style.top = scrollY + 50 + 'px';
+    window13.style.top = scrollY + 50 + 'px';
+    window14.style.top = scrollY + 50 + 'px';
 }
