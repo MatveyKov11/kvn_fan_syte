@@ -39,7 +39,7 @@ if (window.innerWidth > 900){
     });
 }else{
     document.addEventListener('scroll', function(event){
-        up.style.top = scrollY + window.innerHeight - 140 + 'px';
+        up.style.top = scrollY + window.innerHeight - 150 + 'px';
         down.style.top = scrollY + window.innerHeight - 80 + 'px';
     });
 }
