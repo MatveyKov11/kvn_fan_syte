@@ -81,6 +81,8 @@
 	}
 
 	.image_container{
+		display: flex;
+		justify-content: center;
 		position: relative;
 		width: 100%;
 		margin-top: 28px;
@@ -88,6 +90,11 @@
 	}
 
 	.description{
+		width: 100%;
+	}
+
+	.show_container{
+		position: absolute;
 		width: 100%;
 	}
 
