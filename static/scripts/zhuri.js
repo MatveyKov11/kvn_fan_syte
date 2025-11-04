@@ -12,6 +12,17 @@ close2.onclick = function(event) {
 	window2.style.display = 'none';
 }
 
+small.style.display = 'none';
+big.onclick = function(event) {
+	big.style.display = 'none';
+	small.style.display = 'flex';
+}
+
+small.onclick = function(event) {
+	small.style.display = 'none';
+	big.style.display = 'flex';
+}
+
 if (window.innerWidth > 900){
 	window1.style.left = 50 + 'px';
 	window1.style.width = window.innerWidth - 100 + 'px';

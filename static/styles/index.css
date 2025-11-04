@@ -65,12 +65,14 @@
 		display: flex;
 		justify-content: center;
 		margin-top: 24px;
+		margin-left: 10%;
+		width: 80%;
 		margin-bottom: 20px;
 	}
 
 	.main_img {
 		max-width: 60%;
-		max-height: 55vh;
+		max-height: 50vh;
 		border: 3px solid #000000;
 	}
 
