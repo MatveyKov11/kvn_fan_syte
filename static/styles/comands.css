@@ -200,6 +200,12 @@
 		width: 5%;
 	}
 
+	.scale{
+		position: absolute;
+		margin-left: 5%;
+		width: 5%;
+	}
+
 	.footer{
 		width: 100%;
 		border-top: 3px solid #000000;
@@ -396,6 +402,12 @@
 	.navi{
 		position: absolute;
 		margin-left: 85%;
+		width: 10%;
+	}
+
+	.scale{
+		position: absolute;
+		margin-left: 5%;
 		width: 10%;
 	}
 
